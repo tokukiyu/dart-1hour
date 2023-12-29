@@ -3,6 +3,10 @@ void main() {
   myList.addAll([0, 3, 4]);
   // print(myList);
 
-  myList.insertAll(3, [3,5,32323,12]);
+  myList.insertAll(3, [3, 5, 32323, 12]);
+
+  ;
+  // print(myList.reversed);
+  myList.removeWhere((element) => element == 3);
   print(myList);
 }
