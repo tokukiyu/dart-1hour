@@ -9,6 +9,7 @@ void main() {
   // print(myList.reversed);
   // myList.removeWhere((element) => element == 3);
   myList.removeRange(1, 5);
+  myList.clear();
   var dict = {'john': "oro", 'from': 'jima'};
   print(dict);
 }
