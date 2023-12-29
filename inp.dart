@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main(List<String> args) {
-  String? n = stdin.readLineSync();
+  int? n = stdin.readLineSync();
 
   print('hello $n');
 }
