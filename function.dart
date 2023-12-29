@@ -4,4 +4,9 @@ void main(List<String> args) {
   }
 
   myFunc();
+  a();
+}
+
+void a() {
+  print('object');
 }
