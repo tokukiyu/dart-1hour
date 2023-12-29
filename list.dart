@@ -8,6 +8,6 @@ void main() {
   ;
   // print(myList.reversed);
   // myList.removeWhere((element) => element == 3);
-  myList.removeRange(1, 4);
+  myList.removeRange(1, 5);
   print(myList);
 }
