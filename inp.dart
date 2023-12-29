@@ -1,7 +1,10 @@
 import 'dart:io';
 
 void main(List<String> args) {
-  int? n = stdin.readLineSync();
-
-  print('hello $n');
+  // String? n = stdin.readLineSync();
+  var a, b, c;
+  a = '10';
+  b = 10;
+  c = b + int.parse(a);
+  print('hello $c');
 }
