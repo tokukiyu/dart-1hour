@@ -7,6 +7,7 @@ void main() {
 
   ;
   // print(myList.reversed);
-  myList.removeWhere((element) => element == 3);
+  // myList.removeWhere((element) => element == 3);
+  myList.removeRange(1, 4);
   print(myList);
 }
